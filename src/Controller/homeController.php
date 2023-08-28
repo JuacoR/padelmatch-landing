@@ -6,7 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 use Symfony\Component\Routing\Annotation\Route;
 
-class HomeController extends AbstractController
+class homeController extends AbstractController
 {
     /**
      * @Route("/home", name="app_home")
