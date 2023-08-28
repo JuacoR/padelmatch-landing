@@ -79,7 +79,7 @@ header nav li:last-child{
 }
 
 .hero .hero--content{
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -131,7 +131,7 @@ header nav li:last-child{
 }
 
 .images .images--content{
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
