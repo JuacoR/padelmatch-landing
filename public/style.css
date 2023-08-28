@@ -220,10 +220,13 @@ header nav li:last-child{
 
 .background-final {
 	height: 100vh;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
+	padding: 0;
+}
+
+.background-final img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 
