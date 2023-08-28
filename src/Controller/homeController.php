@@ -21,9 +21,10 @@ class homeController
         $this->parameterBag = $parameterBag;
 
     }
-    
+
     public function index()
     {
-        return $this->render('public/index.html', ['controller_name' => 'HomeController',]);
+        $index_html_path = $this->getParameter('kernel.project_dir') . '/public/index.html';
+        return new Response(file_get_contents($index_html_path));
     }
 }
